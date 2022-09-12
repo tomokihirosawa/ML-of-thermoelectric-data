@@ -5,6 +5,7 @@ According to the linear response theory, the thermoelectric transport properties
 However, the spectral conductivity depends on carrier concentrations, vacancies, charge impurities, chemical compositions, and material microstructures, making it difficult to predict theoretically. 
 Here, we propose a data-driven approach based on machine learning to reconstruct the spectral conductivity and chemical potential from the thermoelectric transport data. 
 
+![pic1](https://user-images.githubusercontent.com/24930817/189618242-fd3e3fc9-00c3-4e7c-95cc-16a3e52d76ea.png)
 
 # How to run
 We have tested our code with Python 3.8.8 and PyTorch 1.12.0. Instructions to run:
