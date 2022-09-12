@@ -14,9 +14,9 @@ We have tested our code with Python 3.8.8 and PyTorch 1.12.0. Instructions to ru
 
 # About this repository
 It contains a minimal working example for the method introduced in the [paper](https://arxiv.org/abs/2206.01100). 
-Here, we propose a data-driven approach based on machine learning to reconstruct the spectral conductivity \change{and chemical potential} from the thermoelectric transport data. Using this machine learning method, we first demonstrate that the spectral conductivity and temperature-dependent chemical potentials can be recovered within a simple toy model. In a second step, we apply our method to experimental data in doped one-dimensional telluride Ta$_4$SiTe$_4$~[T. Inohara, \textit{et al.}, Appl. Phys. Lett. \textbf{110}, 183901 (2017)] to reconstruct the spectral conductivity and chemical potential for each sample. Furthermore, the thermal conductivity of electrons and the maximal figure of merit $ZT$ are estimated from the reconstructed spectral conductivity, which provides accurate estimates beyond the Wiedemann-Franz law. Our study clarifies the connection between the thermoelectric transport properties and the low-energy electronic states of real materials, and establishes a promising route to incorporate experimental data into traditional theory-driven workflows.
+Using the machine learning method, we first demonstrate that the spectral conductivity and temperature-dependent chemical potentials can be recovered within a simple toy model. In a second step, we apply our method to [the experimental data of doped one-dimensional telluride Ta$_4$SiTe$_4$](https://aip.scitation.org/doi/10.1063/1.4982623) to reconstruct the spectral conductivity and chemical potential for each sample. 
 
-If you found this work useful, please cite our paper.
-- 
-# Authors
+If you found this work useful, please cite our [paper](https://arxiv.org/abs/2206.01100).
+
+
 
