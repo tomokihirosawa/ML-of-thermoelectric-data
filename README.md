@@ -19,6 +19,6 @@ Using the machine learning method, we first demonstrate that the spectral conduc
 
 If you found this work useful, please cite our [paper](https://arxiv.org/abs/2206.01100).
 
-# Lincence
+# Lincense
 ML-of-thermoelectric-data carries an Apache 2.0 license.
 
