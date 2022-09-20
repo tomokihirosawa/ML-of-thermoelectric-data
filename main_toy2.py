@@ -79,7 +79,7 @@ def train(device, epoch, params, model, optimizer, Tot_epoch, loss_array):
         y = model.fc_layers(inputs[:size]).detach().cpu().numpy()
 
         ##output the spectral conductivity
-        # averaging 5 consequtive elements of the output vector to compute the spectral conductivity
+        # averaging 10 consequtive elements of the output vector to compute the spectral conductivity
         Q = y[:size * 4 + 10]
         Sigma = np.zeros(size * 4 + 1)
         for j in range(Sigma.shape[0]):
