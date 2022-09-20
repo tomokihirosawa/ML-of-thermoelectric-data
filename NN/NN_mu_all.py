@@ -52,7 +52,7 @@ class FCN(nn.Module):
         out = torch.zeros(2 * size * Nsample + 1).to(device)
 
         Q = self.fc_layers(x)[:size * 4 + 10]
-        # averaging 5 consequtive elements of the output vector to compute the spectral conductivity
+        # averaging 10 consequtive elements of the output vector to compute the spectral conductivity
         Sigma = torch.zeros(size * 4 + 1).to(device)
         for j in range(Sigma.shape[0]):
             Sigma[j] = (Q[j] + Q[j + 1] + Q[j + 2] + Q[j + 3] + Q[j + 4] +
