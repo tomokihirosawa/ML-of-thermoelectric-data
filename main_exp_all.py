@@ -57,7 +57,7 @@ def train(device, epoch, params, model, optimizer, Tot_epoch, loss_array):
         inputs1 = torch.linspace(0.0, 1.0, size + 1)[1:]
         factor = torch.ones(labels.shape[0]).to(device)
         for i in range(sample * 2):
-            factor[41 * i:41 * (i + 1)] = (4. / (4. + inputs1))
+            factor[size * i:size * (i + 1)] = (4. / (4. + inputs1))
         loss = criterion(preds * factor, labels * factor)
 
         # backpropagation and parameter updates
