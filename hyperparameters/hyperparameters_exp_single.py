@@ -1,10 +1,12 @@
 # NN parameters
-fcs = [41, 512, 92] 
+fcs = [41, 512, 92]
 
 # Parameters for training
-params = { 'batch_size': 82, #full batch size=size of labels
+params = {
+    'batch_size': 82,  #full batch size=size of labels
     'shuffle': False,
-    'num_workers': 1}
+    'num_workers': 1
+}
 
 # learning rate of the optimizer
 lr = 5e-3
@@ -13,5 +15,5 @@ lr = 5e-3
 epochs = 3000
 
 #parameters for experiments
-x=0.0
-y=0.0
+x = 0.0
+y = 0.0
